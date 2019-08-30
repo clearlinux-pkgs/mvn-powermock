@@ -4,28 +4,39 @@
 #
 Name     : mvn-powermock
 Version  : 1.6.4
-Release  : 4
+Release  : 5
 URL      : https://github.com/powermock/powermock/archive/powermock-1.6.4.tar.gz
 Source0  : https://github.com/powermock/powermock/archive/powermock-1.6.4.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/powermock/powermock-api-easymock/1.6.2/powermock-api-easymock-1.6.2.jar
 Source2  : https://repo1.maven.org/maven2/org/powermock/powermock-api-easymock/1.6.2/powermock-api-easymock-1.6.2.pom
 Source3  : https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.jar
 Source4  : https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.pom
-Source5  : https://repo1.maven.org/maven2/org/powermock/powermock-api/1.6.2/powermock-api-1.6.2.pom
-Source6  : https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar
-Source7  : https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.pom
-Source8  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar
-Source9  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.pom
-Source10  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar
-Source11  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.pom
-Source12  : https://repo1.maven.org/maven2/org/powermock/powermock-modules/1.6.2/powermock-modules-1.6.2.pom
-Source13  : https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar
-Source14  : https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.pom
-Source15  : https://repo1.maven.org/maven2/org/powermock/powermock/1.6.2/powermock-1.6.2.pom
+Source5  : https://repo1.maven.org/maven2/org/powermock/powermock-api-support/2.0.0-RC.4/powermock-api-support-2.0.0-RC.4.jar
+Source6  : https://repo1.maven.org/maven2/org/powermock/powermock-api-support/2.0.0-RC.4/powermock-api-support-2.0.0-RC.4.pom
+Source7  : https://repo1.maven.org/maven2/org/powermock/powermock-api/1.6.2/powermock-api-1.6.2.pom
+Source8  : https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar
+Source9  : https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.pom
+Source10  : https://repo1.maven.org/maven2/org/powermock/powermock-core/2.0.0-RC.4/powermock-core-2.0.0-RC.4.jar
+Source11  : https://repo1.maven.org/maven2/org/powermock/powermock-core/2.0.0-RC.4/powermock-core-2.0.0-RC.4.pom
+Source12  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar
+Source13  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.pom
+Source14  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/2.0.0-RC.4/powermock-module-junit4-common-2.0.0-RC.4.jar
+Source15  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/2.0.0-RC.4/powermock-module-junit4-common-2.0.0-RC.4.pom
+Source16  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar
+Source17  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.pom
+Source18  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/2.0.0-RC.4/powermock-module-junit4-2.0.0-RC.4.jar
+Source19  : https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/2.0.0-RC.4/powermock-module-junit4-2.0.0-RC.4.pom
+Source20  : https://repo1.maven.org/maven2/org/powermock/powermock-modules/1.6.2/powermock-modules-1.6.2.pom
+Source21  : https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar
+Source22  : https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.pom
+Source23  : https://repo1.maven.org/maven2/org/powermock/powermock-reflect/2.0.0-RC.4/powermock-reflect-2.0.0-RC.4.jar
+Source24  : https://repo1.maven.org/maven2/org/powermock/powermock-reflect/2.0.0-RC.4/powermock-reflect-2.0.0-RC.4.pom
+Source25  : https://repo1.maven.org/maven2/org/powermock/powermock/1.6.2/powermock-1.6.2.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : Apache-2.0
+License  : Apache-2.0 MIT
 Requires: mvn-powermock-data = %{version}-%{release}
+Requires: mvn-powermock-license = %{version}-%{release}
 
 %description
 ![PowerMock](powermock.png)
@@ -39,11 +50,24 @@ Group: Data
 data components for the mvn-powermock package.
 
 
+%package license
+Summary: license components for the mvn-powermock package.
+Group: Default
+
+%description license
+license components for the mvn-powermock package.
+
+
 %prep
+%setup -q -n powermock-powermock-1.6.4
 
 %build
 
 %install
+mkdir -p %{buildroot}/usr/share/package-licenses/mvn-powermock
+cp LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-powermock/LICENSE.txt
+cp api/mockito/src/main/java/org/powermock/api/mockito/repackaged/Mockito-LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-powermock/api_mockito_src_main_java_org_powermock_api_mockito_repackaged_Mockito-LICENSE.txt
+cp modules/module-impl/agent/jmockit-license.txt %{buildroot}/usr/share/package-licenses/mvn-powermock/modules_module-impl_agent_jmockit-license.txt
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-easymock/1.6.2
 cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-easymock/1.6.2/powermock-api-easymock-1.6.2.jar
 
@@ -56,38 +80,68 @@ cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-support/1.6.2
 cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-support/2.0.0-RC.4
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-support/2.0.0-RC.4/powermock-api-support-2.0.0-RC.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-support/2.0.0-RC.4
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api-support/2.0.0-RC.4/powermock-api-support-2.0.0-RC.4.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api/1.6.2
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api/1.6.2/powermock-api-1.6.2.pom
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-api/1.6.2/powermock-api-1.6.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.pom
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/2.0.0-RC.4
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/2.0.0-RC.4/powermock-core-2.0.0-RC.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/2.0.0-RC.4
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-core/2.0.0-RC.4/powermock-core-2.0.0-RC.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.pom
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-RC.4
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-RC.4/powermock-module-junit4-common-2.0.0-RC.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-RC.4
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-RC.4/powermock-module-junit4-common-2.0.0-RC.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.pom
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-RC.4
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-RC.4/powermock-module-junit4-2.0.0-RC.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-RC.4
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-RC.4/powermock-module-junit4-2.0.0-RC.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-modules/1.6.2
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-modules/1.6.2/powermock-modules-1.6.2.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-modules/1.6.2/powermock-modules-1.6.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/2.0.0-RC.4
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/2.0.0-RC.4/powermock-reflect-2.0.0-RC.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/2.0.0-RC.4
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock-reflect/2.0.0-RC.4/powermock-reflect-2.0.0-RC.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock/1.6.2
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock/1.6.2/powermock-1.6.2.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermock/1.6.2/powermock-1.6.2.pom
 
 
 %files
@@ -99,14 +153,30 @@ cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/powermock/powermoc
 /usr/share/java/.m2/repository/org/powermock/powermock-api-easymock/1.6.2/powermock-api-easymock-1.6.2.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.jar
 /usr/share/java/.m2/repository/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.pom
+/usr/share/java/.m2/repository/org/powermock/powermock-api-support/2.0.0-RC.4/powermock-api-support-2.0.0-RC.4.jar
+/usr/share/java/.m2/repository/org/powermock/powermock-api-support/2.0.0-RC.4/powermock-api-support-2.0.0-RC.4.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-api/1.6.2/powermock-api-1.6.2.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar
 /usr/share/java/.m2/repository/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.pom
+/usr/share/java/.m2/repository/org/powermock/powermock-core/2.0.0-RC.4/powermock-core-2.0.0-RC.4.jar
+/usr/share/java/.m2/repository/org/powermock/powermock-core/2.0.0-RC.4/powermock-core-2.0.0-RC.4.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar
 /usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.pom
+/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-RC.4/powermock-module-junit4-common-2.0.0-RC.4.jar
+/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-RC.4/powermock-module-junit4-common-2.0.0-RC.4.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar
 /usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.pom
+/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-RC.4/powermock-module-junit4-2.0.0-RC.4.jar
+/usr/share/java/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-RC.4/powermock-module-junit4-2.0.0-RC.4.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-modules/1.6.2/powermock-modules-1.6.2.pom
 /usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar
 /usr/share/java/.m2/repository/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.pom
+/usr/share/java/.m2/repository/org/powermock/powermock-reflect/2.0.0-RC.4/powermock-reflect-2.0.0-RC.4.jar
+/usr/share/java/.m2/repository/org/powermock/powermock-reflect/2.0.0-RC.4/powermock-reflect-2.0.0-RC.4.pom
 /usr/share/java/.m2/repository/org/powermock/powermock/1.6.2/powermock-1.6.2.pom
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-powermock/LICENSE.txt
+/usr/share/package-licenses/mvn-powermock/api_mockito_src_main_java_org_powermock_api_mockito_repackaged_Mockito-LICENSE.txt
+/usr/share/package-licenses/mvn-powermock/modules_module-impl_agent_jmockit-license.txt
