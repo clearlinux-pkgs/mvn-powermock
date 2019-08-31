@@ -4,7 +4,7 @@
 #
 Name     : mvn-powermock
 Version  : 1.6.4
-Release  : 6
+Release  : 7
 URL      : https://github.com/powermock/powermock/archive/powermock-1.6.4.tar.gz
 Source0  : https://github.com/powermock/powermock/archive/powermock-1.6.4.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/powermock/powermock-api-easymock/1.6.2/powermock-api-easymock-1.6.2.jar
